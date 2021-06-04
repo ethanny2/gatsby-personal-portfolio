@@ -37,7 +37,9 @@ export const projectsData = [
     info2:
       'The concept for this project was to go beyond the usual React demo applications that recreate the web app of some popular service such as Netflix, Airbnb, and Instagram etc... But without having any real functionality. Photogram aims to replicate most features found in the official Instagram web application while supplementing it with features/improvements that could be incorporated into the offical Instagram web application.',
     url: 'https://photogram.vercel.app',
-    repo: 'https://github.com/ethanny2/photogram', // if no repo, the button will not show up
+    repo: 'https://github.com/ethanny2/photogram', // if no repo, the button will not show up,
+    logos: ['react', 'tailwind', 'firebase', 'amazon-s3', 'vercel'],
+    credentials: 'Email: demo@gmail.com , Password: demo1234',
   },
   {
     id: nanoid(),
@@ -48,6 +50,8 @@ export const projectsData = [
       'The goal of this project was to gain insight on how to connect an ecommerce storefront with a CMS backend that could easily be handed off to a client. I eventually chose Next.js for its strong ecommerce facing templates and ended up using headless Shopify as the backend (as opposed to Sanity CMS or Bigcommerce).',
     url: 'https://100streetwares.vercel.app/',
     repo: 'https://github.com/ethanny2/streetwares-v2', // if no repo, the button will not show up
+    logos: ['react', 'tailwind', 'next-js', 'typescript', 'vercel', 'shopify'],
+    credentials: '',
   },
   {
     id: nanoid(),
@@ -58,6 +62,8 @@ export const projectsData = [
       'The mysql database powering the site was built by compiling information through multiple video game data APIs (Giant Bomb , IGBD) and web scraping (How long to beat, MetaCritic). In addition, unlike similar sites/ APIs this includes nearly all released video games from around 1980 - 2015.',
     url: 'https://game-randomizer.netlify.app/',
     repo: 'https://github.com/ethanny2/video-game-randomizer', // if no repo, the button will not show up
+    logos: ['javascript', 'sass', 'php', 'mysql', 'jquery', 'webpack', 'xampp', 'heroku'],
+    credentials: '',
   },
   {
     id: nanoid(),
@@ -68,6 +74,8 @@ export const projectsData = [
       'This project was created to provide a good starting point for learners who are new to webpack, JavaScript bundlers, and three.js. I wanted to create an optimal development and production environment that was simple to understand and hassle-free to set up for experts and novices alike.',
     url: 'https://threejs-webpack-boilerplate.netlify.app/',
     repo: 'https://github.com/ethanny2/threejs-es6-webpack-barebones-boilerplate', // if no repo, the button will not show up
+    logos: ['javascript', 'sass', 'webpack', 'netlify'],
+    credentials: '',
   },
   {
     id: nanoid(),
@@ -78,6 +86,9 @@ export const projectsData = [
       'The original concept for the site was to sell clothing for my short-lived clothing brand "else-if" clothing. The site was originally hosted on Big Cartel and was made using their custom platform which abstracted the product backend and gave developers a nice interface to interact with the backend through templating and ruby + Coffeescript.',
     url: 'https://elseifclothing.netlify.app/',
     repo: 'https://github.com/ethanny2/cyberpunk-ecommerce-frontend', // if no repo, the button will not show up
+    logos: ['javascript', 'sass', 'stripe', 'jquery', 'webpack', 'netlify'],
+    credentials:
+      'Test Card Number: 4242 4242 4242 4242 , any CVC , any region , any expiration , any email',
   },
   {
     id: nanoid(),
@@ -88,6 +99,8 @@ export const projectsData = [
             This site is meant to have an old-school grungy aesthetic with the use of a non-traditional background , animated transparent gifs and other florishes. Similar to the website style of the popular fasion brand AWGE.`,
     url: 'https://unofficial-playboicarti.netlify.app/',
     repo: 'https://github.com/ethanny2/retro-fansite-update', // if no repo, the button will not show up
+    logos: ['javascript', 'soundcloud', 'sass', 'php', 'jquery', 'webpack', 'heroku', 'netlify'],
+    credentials: '',
   },
   {
     id: nanoid(),
@@ -99,6 +112,8 @@ export const projectsData = [
     Since the "back-end" portion of the application is just a single route/function verifying the word is real I opted to use Netlify serverless functions to make it a JAM stack application.`,
     url: 'https://word-scramble.netlify.app/',
     repo: 'https://github.com/ethanny2/codePenScrabbleChallenge', // if no repo, the button will not show up
+    logos: ['javascript', 'sass', 'webpack', 'netlify', 'nodejs'],
+    credentials: '',
   },
 ];
 

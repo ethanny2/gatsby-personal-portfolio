@@ -9,8 +9,6 @@ import gamerandomizer from '../../images/gamerandomizer.gif';
 import threejsboilerplate from '../../images/threejsboilerplate.gif';
 import scrabble from '../../images/scrabble.gif';
 import streetwares from '../../images/streetwares.gif';
-
-import placeholder from '../../images/project.jpg';
 import styles from './ProjectImg.module.css';
 
 function chooseGif(filename) {
@@ -30,7 +28,7 @@ function chooseGif(filename) {
     case 'streetwares':
       return { photo: streetwares, alt: 'Photogram dashboard demo' };
     default:
-      return placeholder;
+      return photogram;
   }
 }
 
