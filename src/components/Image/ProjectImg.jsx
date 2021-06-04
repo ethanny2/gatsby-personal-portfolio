@@ -2,6 +2,8 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
+import photogram from '../../images/photogram.gif';
+import styles from './ProjectImg.module.css';
 
 const ProjectImg = ({ filename, alt }) => (
   <StaticQuery
@@ -27,7 +29,10 @@ const ProjectImg = ({ filename, alt }) => (
 
       if (!image) return null;
 
-      const imageFluid = image.node.childImageSharp.fluid;
+      if (image.node.name.includes('.gif') && image.node.name.includes('photogram'))
+        return <img className={styles.gif} src={photogram} alt="Photogram dashboard demo" />;
+      const imageFluid = image.node.childImageSharp?.fluid;
+
       return <Img alt={alt} fluid={imageFluid} />;
     }}
   />
