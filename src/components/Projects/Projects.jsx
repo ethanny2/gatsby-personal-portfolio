@@ -50,7 +50,7 @@ const Projects = () => {
                       </div>
                       {credentials !== '' ? (
                         <div className="project-wrapper__credentials">
-                          <p className="mb-4 demo"> Demo Credentials:</p>
+                          <p className="demo"> Demo Credentials:</p>
                           <p> {credentials}</p>
                         </div>
                       ) : null}
