@@ -1,10 +1,23 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Ethan Soo Hon | JavaScript Developer',
+    siteUrl: 'https://www.ethansoohon.com/',
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.ethansoohon.com',
+        sitemap: 'https://www.ethansoohon.com/sitemap/sitemap-0.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,8 +35,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Ethan Soo Hon Portfolio`,
+        short_name: `Ethan Soo Hon`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,

@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: ' Ethan Soo Hon | JavaScript Developer', // e.g: 'Name | Developer'
+  title: 'Ethan Soo Hon | JavaScript Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description:
     'Portfolio site showing the projects and experience of Ethan Soo Hon; a full stack JavaScript developer', // e.g: Welcome to my website
@@ -12,14 +12,14 @@ export const headData = {
 export const heroData = {
   title: `Hi 👋 I'm `,
   name: 'Ethan Soo Hon',
-  subtitle: 'Full stack JavaScript software engineer',
+  subtitle: 'Full Stack JavaScript Developer',
   cta: 'About',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile-pic2.png',
-  paragraphOne: `My name is Ethan Soo Hon a software engineer with a Bachelor's in Computer Science from Binghamton University 🎓. 
+  paragraphOne: `My name is Ethan Soo Hon a software engineer with a Bachelor's in Computer Science from The Thomas J. Watson School of Engineering🎓. 
   I work across the entire stack using JavaScript with a focus primarily on the front end 💻. I love learning new tools/technologies and imparting my knowledge unto others 📚.`,
   paragraphTwo: `For the past year and a half I have been working as an online tutor guiding numerous college students and over 15 bootcamp students through their web development classes/cirriculum going over topics such
     as React, Node, Express, authentication , Redux, Apollo, PostgreSQL, PHP and more👨‍🏫.`,
