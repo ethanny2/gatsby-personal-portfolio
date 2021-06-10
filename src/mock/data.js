@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphTwo: `For the past year and a half I have been working as an online tutor guiding numerous college students and over 15 bootcamp students through their web development classes/cirriculum going over topics such
     as React, Node, Express, authentication , Redux, Apollo, PostgreSQL, PHP and more👨‍🏫.`,
   paragraphThree: 'Currently seeking remote fullstack / frontend JavaScript opportunities!',
-  resume: 'https://ethansoohon.com/Ethan%20Soo%20Hon%20Resume.pdf', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1_Y0HUHPCCRNH4X_JBQaNBB_ChFfoipqS/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
