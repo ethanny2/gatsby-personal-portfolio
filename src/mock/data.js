@@ -18,7 +18,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile-pic2.png',
+  img: 'profile-pic1.jpg',
   paragraphOne: `My name is Ethan Soo Hon, a software engineer with a Bachelor's in Computer Science from The Thomas J. Watson School of Engineering🎓. 
   I work across the entire stack using JavaScript with a focus primarily on the front end 💻. I love learning new tools/technologies and imparting my knowledge unto others 📚.`,
   paragraphTwo: `For the past year and a half I have been working as an online tutor guiding numerous college students and over 50 boot camp students through their web development classes/curriculum  going over topics such
